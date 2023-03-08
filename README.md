@@ -1,7 +1,8 @@
 ###Arkanoid - level creator
 
 In this app you can create your own level to arkanoid game.
-To save your progress save it to file
+To save your progress save it to file.
+You can open menu with actions by right mouse click
 
 ##You can alsow use shortcuts for some actions like:
 <ul>
