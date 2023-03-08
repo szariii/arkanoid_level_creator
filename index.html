@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./main.js"></script>
+    <style>
+        body {
+            background-color: black;
+            margin: 20px;
+        }
+
+        #table>div {
+            display: inline;
+            border: 2px solid white;
+            background-color: black;
+            float: left;
+            width: 35px;
+            height: 15px;
+
+        }
+
+        #table>div:hover {
+            border: 2px solid orange;
+        }
+
+        #chose>div:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+
+        #table>div:nth-child(15n+1) {
+            clear: both;
+        }
+
+        #chose>div {
+            opacity: 0.5;
+        }
+
+        #chose>div {
+            display: inline;
+            border: 2px solid white;
+            background-color: black;
+            float: left;
+            width: 35px;
+            height: 15px;
+
+        }
+
+        #chose>div:nth-child(5n+1) {
+            clear: both;
+        }
+
+        #chose {
+            float: left;
+        }
+
+        #table {
+            float: right;
+        }
+
+        #body {
+            display: inline;
+        }
+
+        #contextMenu>div:hover {
+            background-color: grey;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="chose"></div>
+        <div id="table"></div>
+    </div>
+    <input style="display: none;" type="file" value="load" id="load"
+        accept="application/json">
+</body>
+
+
+</script>
+
+</html>
