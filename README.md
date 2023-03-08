@@ -19,6 +19,6 @@ To save your progress save it to file
 To test this app you need to run it on local server
 
 #Screenshots:
-<img src="./img/img1.jpg" alt="img1">
-<img src="./img/img2.jpg" alt="img2">
-<img src="./img/img3.jpg" alt="img3">
+<img src="./img/img1.JPG" alt="img1">
+<img src="./img/img2.JPG" alt="img2">
+<img src="./img/img3.JPG" alt="img3">
