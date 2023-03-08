@@ -2,7 +2,7 @@
 
 In this app you can create your own level to arkanoid game.
 To save your progress save it to file.
-You can open menu with actions by right mouse click
+You can open menu with actions by RMB
 
 ##You can alsow use shortcuts for some actions like:
 <ul>
@@ -20,6 +20,7 @@ You can open menu with actions by right mouse click
 To test this app you need to run it on local server
 
 #Screenshots:
+<br/>
 <img src="./img/img1.JPG" alt="img1">
 <img src="./img/img2.JPG" alt="img2">
 <img src="./img/img3.JPG" alt="img3">
